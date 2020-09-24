@@ -1,0 +1,7 @@
+
+
+export WC_KEY=ck_5348065404786882fd13a7ca320ffa9ae9347b27
+export WC_SECRET=cs_2799a7860e544951884d644f0caed21206bce2d4
+
+export DB_USER=root
+export DB_PASSWORD=root

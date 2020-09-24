@@ -1,0 +1,17 @@
+setup.py
+BDD_FW_Practice.egg-info/PKG-INFO
+BDD_FW_Practice.egg-info/SOURCES.txt
+BDD_FW_Practice.egg-info/dependency_links.txt
+BDD_FW_Practice.egg-info/top_level.txt
+tests/__init__.py
+tests/python_main_site/__init__.py
+tests/python_main_site/steps/__init__.py
+tests/python_main_site/steps/steps.py
+utilities/__init__.py
+utilities/common_configs/__init__.py
+utilities/common_configs/locatorsConfig.py
+utilities/common_configs/urlconfig.py
+utilities/common_functions/__init__.py
+utilities/common_functions/web_common.py
+utilities/common_steps/__init__.py
+utilities/common_steps/web_common_steps.py
