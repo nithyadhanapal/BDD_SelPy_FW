@@ -1,5 +1,5 @@
 
-  @coupon @cart @coupon_fe
+  @regression @coupon @cart @coupon_fe
   Feature: Add valid coupons to the cart
 
     @TCID-44

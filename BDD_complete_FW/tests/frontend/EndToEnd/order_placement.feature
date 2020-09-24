@@ -1,4 +1,4 @@
-
+  @smoke
   Feature: Order Placement
 
     @TCID-33

@@ -1,5 +1,5 @@
 
-@xyz
+
 Feature: Navigation bars in the home page
 
     Scenario: Verify the navigation bars on home page are visible

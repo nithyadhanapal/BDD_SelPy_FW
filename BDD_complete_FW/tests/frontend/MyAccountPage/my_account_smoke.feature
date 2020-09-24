@@ -1,4 +1,4 @@
-  @my_acc_smoke @smoke
+
   Feature: My account smoke test
 
     @TCID-10
