@@ -9,8 +9,8 @@ stage('BDD_Selenium_FW')
 {
 steps
 {
-sh cd BDD_complete_FW/tests
-behave --tags=smoke --no-capture --junit --junit-directory TestReport 	
+sh "cd BDD_complete_FW/tests
+behave --tags=smoke --no-capture --junit --junit-directory TestReport" 	
 }	
 
 }
