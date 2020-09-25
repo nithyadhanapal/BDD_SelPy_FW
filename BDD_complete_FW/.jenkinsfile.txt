@@ -1,0 +1,58 @@
+pipeline
+{
+	
+agent any
+
+stages
+{
+stage('BDD_Selenium_FW')
+{
+steps
+{
+sh cd BDD_complete_FW/tests
+behave --tags=smoke --no-capture --junit --junit-directory TestReport 	
+}	
+
+}
+stage('Build')
+{
+steps
+{
+	echo "Building the project"
+}	
+
+}	
+stage('Deploy to QA')
+{
+steps
+{
+	echo "Deploying to QA"
+}
+	
+}
+stage('Smoke Test')
+{
+steps
+{
+	echo "Smoke testing"
+}	
+}
+stage('Regression Test')
+{
+	
+steps
+{
+	echo "Regression testing"
+}
+}
+stage('Release')
+{
+steps
+{
+	echo "Releasing to production"
+}	
+}
+
+}
+
+}
